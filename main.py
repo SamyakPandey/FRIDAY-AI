@@ -84,7 +84,7 @@ def Execute_FRIDAY():
         talk('Searching ' + result)
         pywhatkit.search(result)
     elif 'listen music' in command:
-        music_dir = 'C:\\Users\\dell\\Desktop\\Music'
+        music_dir = 'C:\\Users\\Mac\\Dir\\Non-Critical'
         songs = os.listdir(music_dir)
         os.startfile(os.path.join(music_dir, random.choice(songs)))
     else:
