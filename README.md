@@ -6,5 +6,4 @@ I have not used any ML algorithms , so it is not as advanced as Siri , or alexa 
 # Logic 
 It's logic is to hear , recognize , and respond to certain set of instruction .
 
-# Logic 
-It's logic is to hear , recognize , and respond to certain set of instruction .
+# Thank You
