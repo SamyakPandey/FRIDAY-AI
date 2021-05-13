@@ -118,9 +118,9 @@ def Execute_FRIDAY():
         songs = os.listdir(music_dir)
         os.startfile(os.path.join(music_dir, random.choice(songs)))
     elif 'open app' in command:
-        Zoom_Location = 'app_file_path'
-        os.startfile(Zoom_Location)
-        talk('Opening Zoom')
+        App_Location = 'app_file_path'
+        os.startfile(App_Location)
+        talk('Opening App')
     elif 'open cmd' in command:
         os.system('start cmd')
     elif 'how to' in command:
